@@ -1,0 +1,164 @@
+/* CSS Styles for Profile Resume */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    padding-top: 60px; 
+}
+h1 { 
+    font-size: 24px; 
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+h2{
+    font-family: 'Times New Roman';
+}
+p 
+{
+    text-align: justify;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+h2 {
+    color: #333;
+}
+
+
+nav ul {
+    background: #1096c369;
+    text-align: center;
+}
+
+ul {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1096c369;
+}
+
+nav ul {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 4px;
+}
+
+
+.skill-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.image-container {
+    float: left;  
+    max-width: 150%;
+    margin: 0 auto;   
+}
+
+.image-container img {
+    width: 150%;     
+    height: 150%;    
+    border-radius: 50%;
+}
+
+
+
+section {
+
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.experience-item, .project-item {
+    align-items: center;
+    gap: 3px;
+}
+
+.sidebar-item img {
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    background: #ddd;
+    display: block;
+    margin: 0 auto;
+}
+
+#em{
+ visibility: hidden;
+}
+
+
+.sidebar-container {
+    text-align: center;
+    width: 100%;
+    margin: 2% auto;
+}
+
+
+.sidebar-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background: #fff;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#project-item td {
+    padding: 10px;
+  }
+
+#project-item img {
+    max-width: 150px;
+    min-width: 150px;
+    height: auto;
+    display: block;
+  }
+  
+footer {
+    background-color: #1096c369;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
